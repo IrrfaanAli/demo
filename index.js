@@ -5,8 +5,11 @@ const port = process.env.PORT || 5000;
 
 const chefsData = require('./data/chefs.json');
 
-app.use(cors());
+app.use(cos());
 
+app.get('/',(req,res)=>{
+   res.send(chefsData);
+})
 
 
 app.listen(port,()=>{
