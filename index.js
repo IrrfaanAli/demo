@@ -5,10 +5,21 @@ const port = process.env.PORT || 5000;
 
 const chefsData = require('./data/chefs.json');
 
-app.use(cos());
+app.use(cors());
 
 app.get('/',(req,res)=>{
    res.send(chefsData);
+})
+app.get('/chef',(req,res)=>{
+   res.send(chefsData);
+})
+
+app.get('/chef/:id',(req,res)=>{
+
+    const id = req.params.id;
+    const selectedChef = chefsData.find(data => data.chef_id === parseInt(id));
+
+    res.send(selectedChef);
 })
 
 

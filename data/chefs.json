@@ -1,46 +1,295 @@
 [
- 
     {
-      "name": "Gordon Ramsay",
-      "picture_url": "https://example.com/gordon-ramsay.jpg",
-      "years_of_experience": 30,
-      "number_of_recipes": 100,
-      "likes": 500000
-    },
-    {
-      "name": "Ina Garten",
-      "picture_url": "https://example.com/ina-garten.jpg",
-      "years_of_experience": 25,
-      "number_of_recipes": 75,
-      "likes": 250000
-    },
-    {
-      "name": "Jamie Oliver",
-      "picture_url": "https://example.com/jamie-oliver.jpg",
-      "years_of_experience": 20,
-      "number_of_recipes": 50,
-      "likes": 200000
-    },
-    {
-      "name": "Bobby Flay",
-      "picture_url": "https://example.com/bobby-flay.jpg",
-      "years_of_experience": 15,
-      "number_of_recipes": 40,
-      "likes": 150000
-    },
-    {
-      "name": "Nigella Lawson",
-      "picture_url": "https://example.com/nigella-lawson.jpg",
-      "years_of_experience": 10,
-      "number_of_recipes": 30,
-      "likes": 100000
-    },
-    {
-      "name": "Alton Brown",
-      "picture_url": "https://example.com/alton-brown.jpg",
-      "years_of_experience": 5,
-      "number_of_recipes": 20,
-      "likes": 50000
-    } 
+        "chef_id": 1001,
+        "picture_url": "https://example.com/chef-1001.jpg",
+        "name": "Emily Johnson",
+        "years_of_experience": 12,
+        "number_of_recipes": 50,
+        "likes": 5000,
+        "bio": "Emily Johnson is an award-winning chef with over 12 years of experience in the culinary industry. She is passionate about creating dishes that combine traditional flavors with a modern twist.",
+        "recipes": [
+          {
+            "recipe_name": "Spicy Chicken Curry",
+            "ingredients": [
+              "chicken breast",
+              "coconut milk",
+              "curry paste",
+              "garlic",
+              "ginger"
+            ],
+            "cooking_method": "1. Heat oil in a pan. 2. Add garlic and ginger, cook for 1 minute. 3. Add chicken and cook for 5 minutes. 4. Add curry paste and cook for another minute. 5. Add coconut milk and simmer for 10-15 minutes. 6. Serve hot with rice.",
+            "rating": 4.5
+          },
+          {
+            "recipe_name": "Mushroom Risotto",
+            "ingredients": [
+              "arborio rice",
+              "mushrooms",
+              "onion",
+              "garlic",
+              "parmesan cheese"
+            ],
+            "cooking_method": "1. Heat oil in a pan. 2. Add onion and cook until soft. 3. Add garlic and cook for another minute. 4. Add arborio rice and cook for 2 minutes. 5. Add stock, one ladleful at a time, and cook until absorbed. 6. Add mushrooms and cook until rice is tender. 7. Add parmesan cheese and stir. 8. Serve hot.",
+            "rating": 4.2
+          },
+          {
+            "recipe_name": "Grilled Pork Chops",
+            "ingredients": [
+              "pork chops",
+              "rosemary",
+              "garlic",
+              "olive oil",
+              "salt"
+            ],
+            "cooking_method": "1. Preheat grill. 2. Brush pork chops with olive oil. 3. Season with salt, pepper, and rosemary. 4. Grill for 5-6 minutes on each side. 5. Serve hot.",
+            "rating": 4.7
+          }
+        ]
+      }
+      ,
+      {
+        "chef_id": 1002,
+        "picture_url": "https://example.com/chef-1001.jpg",
+        "name": "Emily Johnson",
+        "years_of_experience": 12,
+        "number_of_recipes": 50,
+        "likes": 5000,
+        "bio": "Emily Johnson is an award-winning chef with over 12 years of experience in the culinary industry. She is passionate about creating dishes that combine traditional flavors with a modern twist.",
+        "recipes": [
+          {
+            "recipe_name": "Spicy Chicken Curry",
+            "ingredients": [
+              "chicken breast",
+              "coconut milk",
+              "curry paste",
+              "garlic",
+              "ginger"
+            ],
+            "cooking_method": "1. Heat oil in a pan. 2. Add garlic and ginger, cook for 1 minute. 3. Add chicken and cook for 5 minutes. 4. Add curry paste and cook for another minute. 5. Add coconut milk and simmer for 10-15 minutes. 6. Serve hot with rice.",
+            "rating": 4.5
+          },
+          {
+            "recipe_name": "Mushroom Risotto",
+            "ingredients": [
+              "arborio rice",
+              "mushrooms",
+              "onion",
+              "garlic",
+              "parmesan cheese"
+            ],
+            "cooking_method": "1. Heat oil in a pan. 2. Add onion and cook until soft. 3. Add garlic and cook for another minute. 4. Add arborio rice and cook for 2 minutes. 5. Add stock, one ladleful at a time, and cook until absorbed. 6. Add mushrooms and cook until rice is tender. 7. Add parmesan cheese and stir. 8. Serve hot.",
+            "rating": 4.2
+          },
+          {
+            "recipe_name": "Grilled Pork Chops",
+            "ingredients": [
+              "pork chops",
+              "rosemary",
+              "garlic",
+              "olive oil",
+              "salt"
+            ],
+            "cooking_method": "1. Preheat grill. 2. Brush pork chops with olive oil. 3. Season with salt, pepper, and rosemary. 4. Grill for 5-6 minutes on each side. 5. Serve hot.",
+            "rating": 4.7
+          }
+        ]
+      }
+      
+      ,
+      {
+        "chef_id": 1003,
+        "picture_url": "https://example.com/chef-1001.jpg",
+        "name": "Emily Johnson",
+        "years_of_experience": 12,
+        "number_of_recipes": 50,
+        "likes": 5000,
+        "bio": "Emily Johnson is an award-winning chef with over 12 years of experience in the culinary industry. She is passionate about creating dishes that combine traditional flavors with a modern twist.",
+        "recipes": [
+          {
+            "recipe_name": "Spicy Chicken Curry",
+            "ingredients": [
+              "chicken breast",
+              "coconut milk",
+              "curry paste",
+              "garlic",
+              "ginger"
+            ],
+            "cooking_method": "1. Heat oil in a pan. 2. Add garlic and ginger, cook for 1 minute. 3. Add chicken and cook for 5 minutes. 4. Add curry paste and cook for another minute. 5. Add coconut milk and simmer for 10-15 minutes. 6. Serve hot with rice.",
+            "rating": 4.5
+          },
+          {
+            "recipe_name": "Mushroom Risotto",
+            "ingredients": [
+              "arborio rice",
+              "mushrooms",
+              "onion",
+              "garlic",
+              "parmesan cheese"
+            ],
+            "cooking_method": "1. Heat oil in a pan. 2. Add onion and cook until soft. 3. Add garlic and cook for another minute. 4. Add arborio rice and cook for 2 minutes. 5. Add stock, one ladleful at a time, and cook until absorbed. 6. Add mushrooms and cook until rice is tender. 7. Add parmesan cheese and stir. 8. Serve hot.",
+            "rating": 4.2
+          },
+          {
+            "recipe_name": "Grilled Pork Chops",
+            "ingredients": [
+              "pork chops",
+              "rosemary",
+              "garlic",
+              "olive oil",
+              "salt"
+            ],
+            "cooking_method": "1. Preheat grill. 2. Brush pork chops with olive oil. 3. Season with salt, pepper, and rosemary. 4. Grill for 5-6 minutes on each side. 5. Serve hot.",
+            "rating": 4.7
+          }
+        ]
+      }
+      
+      ,
+      {
+        "chef_id": 1004,
+        "picture_url": "https://example.com/chef-1001.jpg",
+        "name": "Emily Johnson",
+        "years_of_experience": 12,
+        "number_of_recipes": 50,
+        "likes": 5000,
+        "bio": "Emily Johnson is an award-winning chef with over 12 years of experience in the culinary industry. She is passionate about creating dishes that combine traditional flavors with a modern twist.",
+        "recipes": [
+          {
+            "recipe_name": "Spicy Chicken Curry",
+            "ingredients": [
+              "chicken breast",
+              "coconut milk",
+              "curry paste",
+              "garlic",
+              "ginger"
+            ],
+            "cooking_method": "1. Heat oil in a pan. 2. Add garlic and ginger, cook for 1 minute. 3. Add chicken and cook for 5 minutes. 4. Add curry paste and cook for another minute. 5. Add coconut milk and simmer for 10-15 minutes. 6. Serve hot with rice.",
+            "rating": 4.5
+          },
+          {
+            "recipe_name": "Mushroom Risotto",
+            "ingredients": [
+              "arborio rice",
+              "mushrooms",
+              "onion",
+              "garlic",
+              "parmesan cheese"
+            ],
+            "cooking_method": "1. Heat oil in a pan. 2. Add onion and cook until soft. 3. Add garlic and cook for another minute. 4. Add arborio rice and cook for 2 minutes. 5. Add stock, one ladleful at a time, and cook until absorbed. 6. Add mushrooms and cook until rice is tender. 7. Add parmesan cheese and stir. 8. Serve hot.",
+            "rating": 4.2
+          },
+          {
+            "recipe_name": "Grilled Pork Chops",
+            "ingredients": [
+              "pork chops",
+              "rosemary",
+              "garlic",
+              "olive oil",
+              "salt"
+            ],
+            "cooking_method": "1. Preheat grill. 2. Brush pork chops with olive oil. 3. Season with salt, pepper, and rosemary. 4. Grill for 5-6 minutes on each side. 5. Serve hot.",
+            "rating": 4.7
+          }
+        ]
+      }
+      
+      ,
+      {
+        "chef_id": 1005,
+        "picture_url": "https://example.com/chef-1001.jpg",
+        "name": "Emily Johnson",
+        "years_of_experience": 12,
+        "number_of_recipes": 50,
+        "likes": 5000,
+        "bio": "Emily Johnson is an award-winning chef with over 12 years of experience in the culinary industry. She is passionate about creating dishes that combine traditional flavors with a modern twist.",
+        "recipes": [
+          {
+            "recipe_name": "Spicy Chicken Curry",
+            "ingredients": [
+              "chicken breast",
+              "coconut milk",
+              "curry paste",
+              "garlic",
+              "ginger"
+            ],
+            "cooking_method": "1. Heat oil in a pan. 2. Add garlic and ginger, cook for 1 minute. 3. Add chicken and cook for 5 minutes. 4. Add curry paste and cook for another minute. 5. Add coconut milk and simmer for 10-15 minutes. 6. Serve hot with rice.",
+            "rating": 4.5
+          },
+          {
+            "recipe_name": "Mushroom Risotto",
+            "ingredients": [
+              "arborio rice",
+              "mushrooms",
+              "onion",
+              "garlic",
+              "parmesan cheese"
+            ],
+            "cooking_method": "1. Heat oil in a pan. 2. Add onion and cook until soft. 3. Add garlic and cook for another minute. 4. Add arborio rice and cook for 2 minutes. 5. Add stock, one ladleful at a time, and cook until absorbed. 6. Add mushrooms and cook until rice is tender. 7. Add parmesan cheese and stir. 8. Serve hot.",
+            "rating": 4.2
+          },
+          {
+            "recipe_name": "Grilled Pork Chops",
+            "ingredients": [
+              "pork chops",
+              "rosemary",
+              "garlic",
+              "olive oil",
+              "salt"
+            ],
+            "cooking_method": "1. Preheat grill. 2. Brush pork chops with olive oil. 3. Season with salt, pepper, and rosemary. 4. Grill for 5-6 minutes on each side. 5. Serve hot.",
+            "rating": 4.7
+          }
+        ]
+      }
+      
+      ,
+      {
+        "chef_id": 1006,
+        "picture_url": "https://example.com/chef-1001.jpg",
+        "name": "Emily Johnson",
+        "years_of_experience": 12,
+        "number_of_recipes": 50,
+        "likes": 5000,
+        "bio": "Emily Johnson is an award-winning chef with over 12 years of experience in the culinary industry. She is passionate about creating dishes that combine traditional flavors with a modern twist.",
+        "recipes": [
+          {
+            "recipe_name": "Spicy Chicken Curry",
+            "ingredients": [
+              "chicken breast",
+              "coconut milk",
+              "curry paste",
+              "garlic",
+              "ginger"
+            ],
+            "cooking_method": "1. Heat oil in a pan. 2. Add garlic and ginger, cook for 1 minute. 3. Add chicken and cook for 5 minutes. 4. Add curry paste and cook for another minute. 5. Add coconut milk and simmer for 10-15 minutes. 6. Serve hot with rice.",
+            "rating": 4.5
+          },
+          {
+            "recipe_name": "Mushroom Risotto",
+            "ingredients": [
+              "arborio rice",
+              "mushrooms",
+              "onion",
+              "garlic",
+              "parmesan cheese"
+            ],
+            "cooking_method": "1. Heat oil in a pan. 2. Add onion and cook until soft. 3. Add garlic and cook for another minute. 4. Add arborio rice and cook for 2 minutes. 5. Add stock, one ladleful at a time, and cook until absorbed. 6. Add mushrooms and cook until rice is tender. 7. Add parmesan cheese and stir. 8. Serve hot.",
+            "rating": 4.2
+          },
+          {
+            "recipe_name": "Grilled Pork Chops",
+            "ingredients": [
+              "pork chops",
+              "rosemary",
+              "garlic",
+              "olive oil",
+              "salt"
+            ],
+            "cooking_method": "1. Preheat grill. 2. Brush pork chops with olive oil. 3. Season with salt, pepper, and rosemary. 4. Grill for 5-6 minutes on each side. 5. Serve hot.",
+            "rating": 4.7
+          }
+        ]
+      }
+      
+      
 ]
-
