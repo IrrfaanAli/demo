@@ -10,6 +10,7 @@ app.use(cors());
 app.get('/',(req,res)=>{
    res.send(chefsData);
 })
+
 app.get('/chef',(req,res)=>{
    res.send(chefsData);
 })
@@ -17,6 +18,7 @@ app.get('/chef',(req,res)=>{
 app.get('/chef/:id',(req,res)=>{
 
     const id = req.params.id;
+    
     const selectedChef = chefsData.find(data => data.chef_id === parseInt(id));
 
     res.send(selectedChef);
