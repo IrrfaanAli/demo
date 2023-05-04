@@ -1,10 +1,10 @@
 [
     {
         "chef_id": 1001,
-        "picture_url": "https://example.com/chef-1001.jpg",
-        "name": "Emily Johnson",
-        "years_of_experience": 10,
-        "number_of_recipes": 50,
+        "picture_url": "https://images.pexels.com/photos/3814446/pexels-photo-3814446.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "name": "Vikas Khanna",
+        "years_of_experience": 5,
+        "number_of_recipes": 9,
         "likes": 5000,
         "bio": "Emily Johnson is an award-winning chef with over 12 years of experience in the culinary industry. She is passionate about creating dishes that combine traditional flavors with a modern twist.",
         "recipes": [
@@ -49,11 +49,11 @@
       ,
       {
         "chef_id": 1002,
-        "picture_url": "https://example.com/chef-1001.jpg",
-        "name": "Emily Johnson",
+        "picture_url": "https://images.unsplash.com/photo-1620641606872-f9641b65adab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+        "name": "Atul Kochhar",
         "years_of_experience": 12,
-        "number_of_recipes": 50,
-        "likes": 5000,
+        "number_of_recipes": 13,
+        "likes": 89000,
         "bio": "Emily Johnson is an award-winning chef with over 12 years of experience in the culinary industry. She is passionate about creating dishes that combine traditional flavors with a modern twist.",
         "recipes": [
           {
@@ -98,11 +98,11 @@
       ,
       {
         "chef_id": 1003,
-        "picture_url": "https://example.com/chef-1001.jpg",
-        "name": "Emily Johnson",
-        "years_of_experience": 12,
-        "number_of_recipes": 50,
-        "likes": 5000,
+        "picture_url": "https://images.unsplash.com/photo-1519974395578-e3e2a6c0313f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "name": "Vineet Bhatia",
+        "years_of_experience": 3,
+        "number_of_recipes": 6,
+        "likes": 53000,
         "bio": "Emily Johnson is an award-winning chef with over 12 years of experience in the culinary industry. She is passionate about creating dishes that combine traditional flavors with a modern twist.",
         "recipes": [
           {
@@ -147,11 +147,11 @@
       ,
       {
         "chef_id": 1004,
-        "picture_url": "https://example.com/chef-1001.jpg",
-        "name": "Emily Johnson",
+        "picture_url": "https://plus.unsplash.com/premium_photo-1661956269640-49e3b78f2a87?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "name": "Sriram Aylur",
         "years_of_experience": 12,
-        "number_of_recipes": 50,
-        "likes": 5000,
+        "number_of_recipes": 23,
+        "likes": 115000,
         "bio": "Emily Johnson is an award-winning chef with over 12 years of experience in the culinary industry. She is passionate about creating dishes that combine traditional flavors with a modern twist.",
         "recipes": [
           {
@@ -196,11 +196,11 @@
       ,
       {
         "chef_id": 1005,
-        "picture_url": "https://example.com/chef-1001.jpg",
-        "name": "Emily Johnson",
+        "picture_url": "https://images.unsplash.com/photo-1519288997835-7ae47de1b588?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "name": "Srijith Gopinathan",
         "years_of_experience": 12,
         "number_of_recipes": 50,
-        "likes": 5000,
+        "likes": 445000,
         "bio": "Emily Johnson is an award-winning chef with over 12 years of experience in the culinary industry. She is passionate about creating dishes that combine traditional flavors with a modern twist.",
         "recipes": [
           {
@@ -245,11 +245,11 @@
       ,
       {
         "chef_id": 1006,
-        "picture_url": "https://example.com/chef-1001.jpg",
-        "name": "Emily Johnson",
-        "years_of_experience": 12,
-        "number_of_recipes": 50,
-        "likes": 5000,
+        "picture_url": "https://images.unsplash.com/photo-1648183185045-7a5592e66e9c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=842&q=80",
+        "name": "Alfred Prasad",
+        "years_of_experience": 7,
+        "number_of_recipes": 5,
+        "likes": 533000,
         "bio": "Emily Johnson is an award-winning chef with over 12 years of experience in the culinary industry. She is passionate about creating dishes that combine traditional flavors with a modern twist.",
         "recipes": [
           {
